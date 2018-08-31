@@ -1,0 +1,623 @@
+2018-09-01 00:25:07,739 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.grails.compiler.Grailsc.compile(Grailsc.java:79)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at sun.reflect.GeneratedMethodAccessor98.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1231)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at groovy.util.AntBuilder.performTask(AntBuilder.java:260)
+	at groovy.util.AntBuilder.nodeCompleted(AntBuilder.java:220)
+	at groovy.util.BuilderSupport.doInvokeMethod(BuilderSupport.java:147)
+	at groovy.util.AntBuilder.doInvokeMethod(AntBuilder.java:170)
+	at groovy.util.BuilderSupport.invokeMethod(BuilderSupport.java:64)
+	at org.codehaus.gant.GantBuilder.invokeMethod(GantBuilder.java:99)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compile(GrailsProjectCompiler.groovy:263)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler$compile$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compile(GrailsProjectCompiler.groovy:234)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compileAll(GrailsProjectCompiler.groovy:226)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.compileIfSource(GrailsProjectWatcher.java:240)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.access$300(GrailsProjectWatcher.java:46)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher$1.onChange(GrailsProjectWatcher.java:142)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.fireOnChange(DirectoryWatcher.java:162)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:144)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:163)
+2018-09-01 00:25:07,741 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:07,806 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:07,806 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:41,038 [http-bio-8080-exec-5] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:41,038 [http-bio-8080-exec-5] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:41,042 [http-bio-8080-exec-5] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:41,042 [http-bio-8080-exec-5] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:47,047 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:47,048 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:47,051 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:47,052 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:50,819 [http-bio-8080-exec-4] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:50,819 [http-bio-8080-exec-4] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:50,822 [http-bio-8080-exec-4] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:50,823 [http-bio-8080-exec-4] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:52,290 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:52,291 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:52,294 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:52,295 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:55,538 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:55,539 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:55,543 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2018-09-01 00:25:55,543 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 11: unable to resolve class Customer 
+ @ line 11, column 12.
+   		Customer customer
+              ^
+
+C:\Users\Arif\Documents\NetBeansProjects\student\grails-app\controllers\student\CustomerController.groovy: 14: unable to resolve class Customer 
+ @ line 14, column 12.
+   		customer=new Customer()
+              ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:499)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:482)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:935)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
